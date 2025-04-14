@@ -1,16 +1,6 @@
 /** @format */
 
-import {
-	Building,
-	CalendarCheck,
-	CalendarClock,
-	CalendarSearch,
-	ChevronRight,
-	GitPullRequestDraft,
-	House,
-	LucideProps,
-	Users,
-} from 'lucide-react';
+import { ChevronRight, House, LucideProps, Users } from 'lucide-react';
 
 import {
 	Collapsible,
@@ -59,16 +49,6 @@ export async function NavMain() {
 			titulo: 'Página Inicial',
 			url: '/',
 		},
-		{
-			icone: CalendarSearch,
-			titulo: 'Agendamentos',
-			url: '/agendamentos',
-		},
-		{
-			icone: CalendarCheck,
-			titulo: 'Agendamentos do dia',
-			url: '/hoje',
-		},
 	];
 
 	const menuAdmin: IMenu[] = [
@@ -77,26 +57,6 @@ export async function NavMain() {
 			titulo: 'Usuários',
 			url: '/usuarios',
 			permissao: 'usuario_buscar_tudo',
-		},
-		{
-			icone: GitPullRequestDraft,
-			titulo: 'Motivos',
-			url: '/motivos',
-			permissao: 'usuario_buscar_tudo',
-		},
-		{
-			icone: Building,
-			titulo: 'Coordenadorias',
-			url: '/coordenadorias',
-			permissao: 'usuario_buscar_tudo',
-		},
-	];
-
-	const menuTecnico: IMenu[] = [
-		{
-			icone: CalendarClock,
-			titulo: 'Meus Agendamentos',
-			url: '/escala',
 		},
 	];
 
@@ -206,61 +166,7 @@ export async function NavMain() {
 							</SidebarMenu>
 						</>
 					)}
-					{menuTecnico &&
-					usuario &&
-					usuario.permissao &&
-					['TEC', 'DEV'].includes(usuario.permissao.toString()) && (
-						<>
-							<SidebarGroupLabel>Técnico</SidebarGroupLabel>
-							<SidebarMenu>
-								{menuTecnico.map((item) =>
-									item.subItens ? (
-										<Collapsible
-											key={item.titulo}
-											asChild
-											className='group/collapsible'>
-											<SidebarMenuItem>
-												<CollapsibleTrigger asChild>
-													<SidebarMenuButton tooltip={item.titulo}>
-														{item.icone && <item.icone />}
-														<span>{item.titulo}</span>
-														{item.subItens && (
-															<ChevronRight className='ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90' />
-														)}
-													</SidebarMenuButton>
-												</CollapsibleTrigger>
-												{item.subItens && (
-													<CollapsibleContent>
-														<SidebarMenuSub>
-															{item.subItens?.map((subItem) => (
-																<SidebarMenuSubItem key={subItem.titulo}>
-																	<Link href={item.url || '#'}>
-																		{item.icone && <item.icone />}
-																		<span>{item.titulo}</span>
-																	</Link>
-																</SidebarMenuSubItem>
-															))}
-														</SidebarMenuSub>
-													</CollapsibleContent>
-												)}
-											</SidebarMenuItem>
-										</Collapsible>
-									) : (
-										<SidebarMenuItem
-											key={item.titulo}
-											className='z-50'>
-											<Link href={item.url || '#'}>
-												{item.icone && <item.icone />}
-												<span>{item.titulo}</span>
-											</Link>
-										</SidebarMenuItem>
-									),
-								)}
-							</SidebarMenu>
-						</>
-					)}
 			</SidebarGroup>
-			
 		</SidebarContent>
 	);
 }
