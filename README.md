@@ -71,4 +71,4 @@ pnpm start
 bun start
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) com o navegador.
+Abra [http://localhost:3001](http://localhost:3001) com o navegador.
