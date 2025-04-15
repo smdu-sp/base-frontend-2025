@@ -3,16 +3,20 @@
 </p>
 <p align="center">Base de desenvolvimento Frontend - SMUL/ATIC</p>
 
-## Descrição
-
-Base de desenvolvimento frontend de SMUL/ATIC:
+## Tecnologias
 
 <p align="left">
-    <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/>
+    <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer" title="Next.js" style="text-decoration: none;">
+        <img src="https://cdn.brandfetch.io/id2alue-rx/theme/dark/idqNI71Hra.svg" alt="Next.js" width="40" height="40"/>
     </a>
-    <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/>
+    <a href="" target="https://ui.shadcn.com/docs" rel="noreferrer" title="Shadcn UI" style="text-decoration: none;">
+        <img src="https://avatars.githubusercontent.com/u/139895814" alt="Shadcn UI" width="40" height="40"/>
+    </a>
+    <a href="" target="https://tailwindcss.com/docs" rel="noreferrer" title="Tailwind" style="text-decoration: none;">
+        <img src="https://cdn.brandfetch.io/idMNEQh7-0/theme/dark/symbol.svg" alt="Tailwind" width="40" height="40"/>
+    </a>
+    <a href="" target="https://tailwindcss.com/docs" rel="noreferrer" title="Tailwind" style="text-decoration: none;">
+        <img src="https://cdn.brandfetch.io/idMNEQh7-0/theme/dark/symbol.svg" alt="Tailwind" width="40" height="40"/>
     </a>
 </p>
 
