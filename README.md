@@ -6,17 +6,17 @@
 ## Tecnologias
 
 <p align="left">
-    <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer" title="Next.js" style="text-decoration: none; border-radius: 50%;">
-        <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/NextJS-Dark.svg" alt="Next.js" width="40" height="40"/>
+    <a href="https://nextjs.org/docs" target="_blank" title="Next.js" style="text-decoration: none;">
+        <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/NextJS-Dark.svg" alt="Next.js" width="40" height="40" style="border-radius: 50%;" />
     </a>
-    <a href="" target="https://ui.shadcn.com/docs" rel="noreferrer" title="Shadcn UI" style="text-decoration: none; border-radius: 50%;">
-        <img src="https://avatars.githubusercontent.com/u/139895814" alt="Shadcn UI" width="40" height="40"/>
+    <a href="" target="https://ui.shadcn.com/docs" title="Shadcn UI" style="text-decoration: none;">
+        <img src="https://avatars.githubusercontent.com/u/139895814" alt="Shadcn UI" width="40" height="40" style="border-radius: 50%;" />
     </a>
-    <a href="" target="https://tailwindcss.com/docs" rel="noreferrer" title="Tailwind" style="text-decoration: none; border-radius: 50%;">
-        <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/TailwindCSS-Dark.svg" alt="Tailwind" width="40" height="40"/>
+    <a href="" target="https://tailwindcss.com/docs" title="Tailwind" style="text-decoration: none;">
+        <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/TailwindCSS-Dark.svg" alt="Tailwind" width="40" height="40" style="border-radius: 50%;" />
     </a>
-    <a href="" target="https://tailwindcss.com/docs" rel="noreferrer" title="Auth.js" style="text-decoration: none; border-radius: 50%;">
-        <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/TailwindCSS-Dark.svg" alt="Auth.js" width="40" height="40"/>
+    <a href="" target="https://tailwindcss.com/docs" title="Auth.js" style="text-decoration: none;">
+        <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/TailwindCSS-Dark.svg" alt="Auth.js" width="40" height="40" style="border-radius: 50%;" />
     </a>
 </p>
 
